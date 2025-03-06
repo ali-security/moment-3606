@@ -6,7 +6,7 @@ node_js:
   - "8"
 sudo: false
 
-dist: focal  # Ubuntu 20.04, which has GLIBC 2.31
+# dist: focal  # Ubuntu 20.04, which has GLIBC 2.31
 
 after_success: npm run coveralls
 
