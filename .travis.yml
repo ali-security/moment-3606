@@ -8,7 +8,7 @@ sudo: false
 
 dist: focal  # Ubuntu 20.04, which has GLIBC 2.31
 
-after_success: npm run coveralls
+# after_success: npm run coveralls Token may not be relevant
 
 env:
   global:
